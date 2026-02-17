@@ -16,26 +16,45 @@ body {
     height: 100vh;
 }
 
+/* Hidden message at first */
 #message {
     display: none;
     text-align: center;
 }
 
-a {
-    color: #00ffcc;
-    font-size: 22px;
+/* HUGE JK text */
+#jk {
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Review text */
+#review {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+/* Button style */
+.button {
+    font-size: 28px;
+    padding: 15px 30px;
+    background-color: #00ffcc;
+    color: black;
     text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
 }
 </style>
 </head>
 <body>
 
 <div id="message">
-    <h1>JK! 😄</h1>
-    <p>Please help leave us a Google review</p>
-    <br>
-    <a href="https://g.page/r/CRAmAJLYrjANEAE/review" target="_blank">
-        Tap here to leave a review ⭐
+    <div id="jk">JK! 😄</div>
+    <div id="review">Please leave us a Google review</div>
+    
+    <a class="button" href="https://g.page/r/CRAmAJLYrjANEAE/review" target="_blank">
+        Leave Review ⭐
     </a>
 </div>
 
