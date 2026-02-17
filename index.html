@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Loading...</title>
+
+<style>
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#message {
+    display: none;
+    text-align: center;
+}
+
+a {
+    color: #00ffcc;
+    font-size: 22px;
+    text-decoration: none;
+}
+</style>
+</head>
+<body>
+
+<div id="message">
+    <h1>JK! 😄</h1>
+    <p>Please help leave us a Google review</p>
+    <br>
+    <a href="https://g.page/r/CRAmAJLYrjANEAE/review" target="_blank">
+        Tap here to leave a review ⭐
+    </a>
+</div>
+
+<script>
+setTimeout(function() {
+    document.getElementById("message").style.display = "block";
+}, 2000);
+</script>
+
+</body>
+</html>
