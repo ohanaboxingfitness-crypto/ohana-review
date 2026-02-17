@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Gotcha 😈</title>
+<title>Loading...</title>
 
 <style>
 body {
     margin: 0;
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
@@ -17,22 +17,23 @@ body {
     padding: 20px;
 }
 
-#container {
+#message {
+    display: none;
     text-align: center;
-    max-width: 900px;
+    max-width: 800px;
 }
 
-/* HUGE headline */
-#headline {
-    font-size: 85px;
+/* HUGE JK */
+#jk {
+    font-size: 90px;
     font-weight: bold;
     margin-bottom: 30px;
 }
 
 /* Main message */
-#message {
+#review {
     font-size: 36px;
-    line-height: 1.5;
+    line-height: 1.4;
     margin-bottom: 40px;
 }
 
@@ -40,16 +41,36 @@ body {
 .button {
     font-size: 28px;
     padding: 18px 36px;
-    background-color: black;
-    color: white;
+    background-color: #00ffcc;
+    color: black;
     text-decoration: none;
-    border-radius: 12px;
+    border-radius: 10px;
     font-weight: bold;
 }
 </style>
 </head>
 <body>
 
-<div id="container">
+<div id="message">
 
-    <div id="headline"
+    <div id="Gotcha! bwahaha">JK </div>
+
+    <div id="review">
+        But while you're here...<br>
+        please leave us a Google review 😄
+    </div>
+
+    <a class="button" href="https://g.page/r/CRAmAJLYrjANEAE/review" target="_blank">
+        Leave Review ⭐
+    </a>
+
+</div>
+
+<script>
+setTimeout(function() {
+    document.getElementById("message").style.display = "block";
+}, 2000);
+</script>
+
+</body>
+</html>
